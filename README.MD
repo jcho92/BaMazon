@@ -42,4 +42,13 @@ add new product
 
 bAmazonSupervisor.js
 --------------------------------------------------------------------------------
-Work in progress
+Work in progress    
+
+
+Demo videos attacheds
+bamazonCustomer
+https://drive.google.com/file/d/1U6adoZz0JSrNZ1_xZjiWjUOjZSgrmQhC/view
+
+bamazonManager
+
+https://drive.google.com/file/d/1E9-Mdp14GHuf3EQd2SpsrUklNsLPz-fM/view
