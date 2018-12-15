@@ -8,14 +8,15 @@ var connection = mysql.createConnection({
     password: 'Jadsf1234!@#$',
     database: 'bmazon_db'
 });
-function start(){
-var data = "SELECT *FROM products"
 connection.connect(function (err) {
     if (err) {
         console.error('error connecting: ' + err.stack);
         return;
     }
 });
+function start(){
+var data = "SELECT *FROM products"
+
 
 connection.query(data, function (error, results, fields) {
     if (error) throw error;
@@ -99,6 +100,7 @@ function log(results, amount, id) {
 }
 
 function buyanother(){
+
     inquirer.prompt([
         {
             name:"choice",
@@ -109,6 +111,7 @@ function buyanother(){
     ]).then(function(answer){
         
         if (answer.choice == "yes"){
+           
             start()
         }else{
             return process.exit(22);
